@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.textoFrase {
+  font-style: italic;
+  color: #dd7b22;
+}
+
+.botaoBisc {
+  background-color: white;
+  border-radius: 5px;
+  color: #dd7b22;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  border-color: rgb(158, 154, 154);
+}
+
+.botaoBisc:hover {
+  background-color: #3d3732;
+  color: white;
+
+  transition: 0.7s;
+
+  opacity: 0.7;
+}
